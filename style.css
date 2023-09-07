@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +9,8 @@ body{
     width: 100%;
     /* sem display flex*/
     justify-content: center;
+    background: linear-gradient(#8a7f78, #DDD9CE);
+    background-repeat: no repeat;
 }
 .imagem{
     display: flex;
@@ -23,6 +27,7 @@ body{
     display: flex;
     justify-content: center;
     color: #64574d;
+    font-family: 'Poppins', sans-serif;
 }
 .redessociais{
   display: flex;
@@ -34,7 +39,7 @@ body{
      width: 35px;
      height: 35px;
      border-radius: 30px;
-     margin: 3px;
+     margin: 10px;
      overflow: hidden;
      transition: all 0,3s ease-out;
      cursor: pointer;
@@ -79,6 +84,7 @@ line-height: 35px;
     box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
     cursor: pointer;
    margin: auto;
+   font-family: 'Poppins', sans-serif;
   }
   h1{
     display: flex;
@@ -86,6 +92,7 @@ line-height: 35px;
     margin-top: 45px;
     font-weight: 600;
     color: #7A695D;
+    font-family: 'Poppins', sans-serif;
   }
 .linguagem{
     display: flex;
@@ -121,17 +128,19 @@ line-height: 35px;
     background: rgb(163, 160, 157);
     box-shadow: 0 5px 5px rgba(0, 0, 0, .1);
     cursor: pointer;
+    font-family: 'Poppins', sans-serif;
   }
   .item:hover{
     background: #8a7f78;
     transition: 0.2s;
   }
   .footer{
-    font-size: 37px;
+    font-size: 17px;
     display: flex;
     justify-content: center;
     padding: 50px;
     margin-top: 50px;
     color: #7A695D;
-
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
   }
