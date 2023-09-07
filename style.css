@@ -1,1 +1,23 @@
-
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+.imagem img{
+    border-radius: 200px;
+    margin-top: 30px;
+}
+.nome{
+    margin-top: 10px;
+    font-size: 32px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+.icone{
+     display: inline-block;
+     width: 35px;
+     height: 35px;
+     border-radius: 30px;
+     margin: 3px;
+     overflow: hidden;
+}
