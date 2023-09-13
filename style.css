@@ -144,3 +144,7 @@ line-height: 35px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
   }
+  a{
+    color:rgba(232, 202, 179);
+    text-decoration: none;
+  }
