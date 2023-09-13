@@ -148,3 +148,25 @@ line-height: 35px;
     color:rgba(232, 202, 179);
     text-decoration: none;
   }
+  .projetos2{
+    margin-top: 60px;
+    flex-direction: column;
+  }
+  .item2{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    width: 570px;
+    height: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 50px;
+    border: 1px solid rgba(232, 202, 179);
+    color:rgba(232, 202, 179);
+    background: rgb(163, 160, 157);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+  }
