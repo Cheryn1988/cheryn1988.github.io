@@ -150,7 +150,7 @@ line-height: 35px;
   }
   .projetos2{
     margin-top: 60px;
-    flex-direction: column;
+    
   }
   .item2{
     margin: auto;
@@ -179,41 +179,6 @@ line-height: 35px;
     font-size: 16px;
     margin-top: 35px;
     width: 500px;
-    height: 150px;  
-    color: rgba(238, 232, 227);
-    background: rgb(163, 160, 157);
-    box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
-    cursor: pointer;
-   margin: auto;
-   font-family: 'Poppins', sans-serif;
-  }
-  .texto3{
-    display: flex;
-    justify-content: justify;
-    align-items: center;
-    padding: 1.5rem 2rem;
-    border-radius: 24px;
-    font-size: 16px;
-    margin-top: 35px;
-    width: 500px;
-    height: 150px;  
-    color: rgba(238, 232, 227);
-    background: rgb(163, 160, 157);
-    box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
-    cursor: pointer;
-   margin: auto;
-   font-family: 'Poppins', sans-serif;
-   float: right;
-  }
-  .texto4{
-    display: flex;
-    justify-content: justify;
-    align-items: center;
-    padding: 1.5rem 2rem;
-    border-radius: 24px;
-    font-size: 16px;
-    margin-top: 35px;
-    width: 500px;
     height: 200px;  
     color: rgba(238, 232, 227);
     background: rgb(163, 160, 157);
@@ -221,23 +186,6 @@ line-height: 35px;
     cursor: pointer;
    margin: auto;
    font-family: 'Poppins', sans-serif;
-   float: left;
   }
-.curriculo{
-  float: left;
-    padding: 0% 5%;
-    position: relative;
-    width: 40%;
-}
-.cardapio{
-  float: left;
-    padding: 0% 5%;
-    position: relative;
-    width: 40%;
-}
-.siteods{
-  float: left;
-    padding: 0% 5%;
-    position: relative;
-    width: 40%;
-}
+  
+  
