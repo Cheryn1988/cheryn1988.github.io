@@ -187,3 +187,21 @@ line-height: 35px;
    margin: auto;
    font-family: 'Poppins', sans-serif;
   }
+/* css página Contato */
+.formadecontato input{
+  width: 100%;
+  padding: 8px 0;
+  margin: 8px 0;
+}
+
+.formadecontato input[type=text] {
+  height: 100px;
+}
+
+button {
+  color: black;
+  background-color: white;
+  border: none;
+  width: 100px;
+  height: 30px;
+}
