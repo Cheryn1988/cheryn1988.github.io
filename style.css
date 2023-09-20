@@ -184,14 +184,15 @@ line-height: 35px;
     background: rgb(163, 160, 157);
     box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
     cursor: pointer;
-   margin: auto;
-   font-family: 'Poppins', sans-serif;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
   }
 /* css página Contato */
 .formadecontato input{
   width: 100%;
   padding: 8px 0;
   margin: 8px 0;
+  align-items: center;
 }
 
 .formadecontato input[type=text] {
@@ -204,4 +205,14 @@ button {
   border: none;
   width: 100px;
   height: 30px;
-}
+  justify-content: center;
+  }
+  
+.caixaemail{
+    display: flex;
+    justify-content: center;
+    border-radius: 24px;
+    width: 100px;
+    margin: auto;
+  }
+
