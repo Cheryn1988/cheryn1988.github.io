@@ -232,6 +232,15 @@ button {
    font-family: 'Poppins', sans-serif;
   }
 
+  .text{
+    display: flex;
+    justify-content: center;
+    border-radius: 24px;
+    border: none;
+    background: rgb(163, 160, 157);
+    color: rgba(238, 232, 227);
+    font-family: 'Poppins', sans-serif;
+  }
   .botao{
     display: flex;
     justify-content: center;
