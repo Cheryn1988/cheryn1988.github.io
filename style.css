@@ -251,9 +251,14 @@ line-height: 35px;
 
   /* css carrousel fotos */
 
+/* EM é relativo ao tamanho da fonte
   .carousel-inner{
-    height: 25em; /* EM é relativo ao tamanho da fonte */
+    height: 25em; 
    
   }
+  */
   
-  
+  .carousel-item img {
+    width: 100px; /* Largura desejada */
+    height: 400px; /* Altura desejada */
+  }
