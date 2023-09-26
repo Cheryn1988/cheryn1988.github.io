@@ -58,7 +58,7 @@ body{
   float: right;
   margin-right: 23px;
   font-weight: 100;
-font-size: 17;
+font-size: 17px;
 line-height: 35px;
 }
 .icone:hover{
@@ -176,7 +176,7 @@ line-height: 35px;
     font-size: 16px;
     margin-top: 35px;
     width: 500px;
-    height: 200px;  
+    height: 250px;  
     color: rgba(238, 232, 227);
     background: rgb(163, 160, 157);
     box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
@@ -196,6 +196,7 @@ line-height: 35px;
 .formadecontato input[type=text] {
   height: 100px;
   }
+
 
 .caixaemail{
     display: flex;
@@ -251,14 +252,15 @@ line-height: 35px;
 
   /* css carrousel fotos */
 
-/* EM é relativo ao tamanho da fonte
-  .carousel-inner{
-    height: 25em; 
-   
-  }
-  */
+  .container-fluid {
+    display:flexbox;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura total da viewport (janela de visualização) */
+    }
   
-  .carousel-item img {
-    width: 100px; /* Largura desejada */
-    height: 400px; /* Altura desejada */
-  }
+  .carousel {
+    /* Define o tamanho desejado para o carrossel */
+    max-width: 600px; /* Largura máxima do carrossel */
+    width: 60%; /* Garante que ele ocupe 100% da largura do contêiner */
+  padding-top: 50px;}
