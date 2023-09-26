@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-}
+
 body{
     height: 100%;
     width: 100%;
@@ -200,12 +197,6 @@ line-height: 35px;
   height: 100px;
   }
 
-button {
- border: none;
-  width: 100px;
-  height: 30px;
-       }
-
 .caixaemail{
     display: flex;
     justify-content: center;
@@ -230,7 +221,8 @@ button {
     background: rgb(163, 160, 157);
     margin: auto;
    font-family: 'Poppins', sans-serif;
-  }
+   padding: 2rem;
+   }
 
   .text{
     display: flex;
@@ -241,6 +233,7 @@ button {
     color: rgba(238, 232, 227);
     font-family: 'Poppins', sans-serif;
   }
+  
   .botao{
     display: flex;
     justify-content: center;
@@ -253,4 +246,5 @@ button {
     color: rgba(238, 232, 227);
     background: rgb(163, 160, 157);
     font-family: 'Poppins', sans-serif;
+    border: none;
   }
