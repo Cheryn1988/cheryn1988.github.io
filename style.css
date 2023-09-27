@@ -256,10 +256,13 @@ line-height: 35px;
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
     height: 100vh; /* Altura total da viewport (janela de visualização) */
-    }
+
+  }
   
   .carousel {
     /* Define o tamanho desejado para o carrossel */
     max-width: 600px; /* Largura máxima do carrossel */
     width: 60%; /* Garante que ele ocupe 100% da largura do contêiner */
-  padding-top: 50px;}
+  padding-top: 50px;
+  margin: auto;
+}
