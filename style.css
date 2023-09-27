@@ -1,6 +1,7 @@
+/* importação de estilo de fonte*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
-
+/* CSS página Index*/
 body{
     height: 100%;
     width: 100%;
@@ -9,14 +10,17 @@ body{
     background: linear-gradient(#8a7f78, #DDD9CE);
     background-repeat: no repeat;
 }
+
 .imagem{
     display: flex;
     justify-content: center;
 }
+
 .imagem img{
     border-radius: 200px;
     margin-top: 30px;
 }
+
 .nome{
     margin-top: 10px;
     font-size: 32px;
@@ -26,11 +30,13 @@ body{
     color: #64574d;
     font-family: 'Poppins', sans-serif;
 }
+
 .redessociais{
   display: flex;
   justify-content: center;
   margin-top: 12px;
 }
+
 .icone{
      display: inline-block;
      width: 35px;
@@ -41,6 +47,7 @@ body{
      transition: all 0,3s ease-out;
      cursor: pointer;
 }
+
 .icone i{
     display: inline-block;
      width: 35px;
@@ -53,6 +60,7 @@ body{
     background-color: rgb(163, 160, 157);
     color: rgba(232, 202, 179);
 }
+
 .icone span a{
   text-decoration: none;
   float: right;
@@ -61,11 +69,13 @@ body{
 font-size: 17px;
 line-height: 35px;
 }
+
 .icone:hover{
     width: 125px;
     background-color: rgb(163, 160, 157);
     border-radius: 20px;
 }
+
 .texto{
     display: flex;
     justify-content: center;
@@ -83,6 +93,7 @@ line-height: 35px;
    margin: auto;
    font-family: 'Poppins', sans-serif;
   }
+
   h1{
     display: flex;
     justify-content: center;
@@ -91,11 +102,13 @@ line-height: 35px;
     color: #7A695D;
     font-family: 'Poppins', sans-serif;
   }
+
 .linguagem{
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
+
 .linguagem img{
     display: flex;
     justify-content: center;
@@ -106,10 +119,12 @@ line-height: 35px;
     color: rgba(232, 202, 179);
     box-shadow: 2px 2px 2px rgba(232, 202, 179)
   }
+
   .projetos{
     margin-top: 40px;
     flex-direction: column;
   }
+
   .item{
     margin: auto;
     display: flex;
@@ -127,10 +142,12 @@ line-height: 35px;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
   }
+
   .item:hover{
     background: #8a7f78;
     transition: 0.2s;
   }
+
   .footer{
     font-size: 17px;
     display: flex;
@@ -141,11 +158,13 @@ line-height: 35px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
   }
+
   a{
     color:rgba(232, 202, 179);
     text-decoration: none;
   }
-  .projetos2{
+
+ /* .projetos2{
     margin-top: 60px;
             }
   .item2{
@@ -166,8 +185,65 @@ line-height: 35px;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
   }
-  .texto2{
-    display: flex;
+
+    /* CSS carrousel fotos todos os projetos */
+
+  .container-fluid {
+    display:flexbox;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura total da viewport (janela de visualização) */
+
+  }
+  
+  .carousel {
+    /* Define o tamanho desejado para o carrossel */
+    max-width: 600px; /* Largura máxima do carrossel */
+    width: 60%; /* Garante que ele ocupe 100% da largura do contêiner */
+   padding-top: 50px;
+   margin: auto;
+}
+
+/* CSS página Currículo*/
+.texto2{
+  display: flex;
+  justify-content: justify;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  border-radius: 24px;
+  font-size: 16px;
+  margin-top: 35px;
+  width: 500px;
+  height: 250px;  
+  color: rgba(238, 232, 227);
+  background: rgb(163, 160, 157);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  margin: auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* CSS página Cardápio */
+.textocardapio{
+    display: auto;
+    justify-content: justify;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    border-radius: 24px;
+    font-size: 16px;
+    margin-top: 35px;
+    width: 700px;
+    height: 300px;  
+    color: rgba(238, 232, 227);
+    background: rgb(163, 160, 157);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* CSS página ODS */
+.textoods{
+  display: auto;
     justify-content: justify;
     align-items: center;
     padding: 1.5rem 2rem;
@@ -175,16 +251,15 @@ line-height: 35px;
     font-size: 16px;
     margin-top: 35px;
     width: 500px;
-    height: 250px;  
+    height:300px;  
     color: rgba(238, 232, 227);
     background: rgb(163, 160, 157);
     box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
-    cursor: pointer;
     margin: auto;
     font-family: 'Poppins', sans-serif;
-  }
+}
 
-/* css página Contato */
+/* CSS página Contato */
 .formadecontato input{
   width: 100%;
   padding: 8px 8px 8px 8px;
@@ -195,7 +270,6 @@ line-height: 35px;
 .formadecontato input[type=text] {
   height: 100px;
   }
-
 
 .caixaemail{
     display: flex;
@@ -248,21 +322,3 @@ line-height: 35px;
     font-family: 'Poppins', sans-serif;
     border: none;
   }
-
-  /* css carrousel fotos */
-
-  .container-fluid {
-    display:flexbox;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    height: 100vh; /* Altura total da viewport (janela de visualização) */
-
-  }
-  
-  .carousel {
-    /* Define o tamanho desejado para o carrossel */
-    max-width: 600px; /* Largura máxima do carrossel */
-    width: 60%; /* Garante que ele ocupe 100% da largura do contêiner */
-  padding-top: 50px;
-  margin: auto;
-}
