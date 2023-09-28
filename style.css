@@ -216,11 +216,6 @@ width: 90%;
 }
 
 
-
-
-
-
-
 /* CSS página Cardápio */
 .textocardapio{
     display: auto;
@@ -274,6 +269,37 @@ width: 90%;
      padding-top: 50px;
      margin: auto;
   }
+
+/* Estilização dos botões de prévia e próxima foto do carrousel*/
+#botaonext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  font-size: 16px;
+  margin-top: 25px;
+  width: 100px;
+  height: 30px;
+  color: rgba(238, 232, 227);
+  background: rgb(163, 160, 157);
+  font-family: 'Poppins', sans-serif;
+  border: none;
+}
+
+#botaoprevia{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  font-size: 16px;
+  margin-top: 25px;
+  width: 100px;
+  height: 30px;
+  color: rgba(238, 232, 227);
+  background: rgb(163, 160, 157);
+  font-family: 'Poppins', sans-serif;
+  border: none;
+}
 
 /* CSS página Contato */
 .formadecontato input{
