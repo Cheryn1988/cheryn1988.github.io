@@ -147,17 +147,6 @@ line-height: 35px;
     transition: 0.2s;
   }
 
-  .footer{
-    font-size: 17px;
-    display: flex;
-    justify-content: center;
-    padding: 50px;
-    margin-top: 50px;
-    color: #7A695D;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-  }
-
   a{
     color:rgba(232, 202, 179);
     text-decoration: none;
@@ -336,4 +325,17 @@ line-height: 35px;
     background: rgb(163, 160, 157);
     font-family: 'Poppins', sans-serif;
     border: none;
+  }
+
+  /* CSS Rodapé */
+  .footer{
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 50px;
+    color: #7A695D;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: #DDD9CE;
   }
