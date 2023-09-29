@@ -10,7 +10,7 @@ body{
     background: linear-gradient(#8a7f78, #DDD9CE);
     background-repeat: no repeat;
     margin:auto;
-}
+  }
 
 .imagem{
     display: flex;
@@ -81,6 +81,7 @@ line-height: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: justify;
     padding: 90px 60px 90px 60px;
     border-radius: 24px;
     font-size: 16px;
@@ -175,6 +176,13 @@ line-height: 35px;
     font-family: 'Poppins', sans-serif;
   }
 
+  /* CSS texto Acesso ao projeto pelo Github*/
+ .textoacessogithub{
+ color: rgba(238, 232, 227);
+   font-family: 'Poppins', sans-serif;
+ 
+ } 
+
 /* CSS página Currículo*/
 
 .item2{
@@ -197,6 +205,7 @@ line-height: 35px;
 .textocurriculo{
   display: auto;
   justify-content: justify;
+  text-align: justify;
   align-items: center;
   padding: 10px 40px 20px 40px;
   border-radius: 24px;
@@ -210,17 +219,39 @@ line-height: 35px;
   font-family: 'Poppins', sans-serif;
 }
 
-/* CSS tamanho texto para diferentes telas  */
-.secaoapresentacao{
-width: 90%;
-}
+.item3{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    width: 370px;
+    height: 60px;
+    margin-bottom: 7px;
+    border-radius: 50px;
+    border: 1px solid rgba(232, 202, 179);
+    color:rgba(232, 202, 179);
+    background: rgb(163, 160, 157);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+  }
 
+ /* Teste colunas */
+
+ .coluna {
+  float: right;
+  padding: 0 5%;
+  position: relative;
+  width: 50%;
+}
 
 /* CSS página Cardápio */
 .textocardapio{
     display: auto;
     justify-content: justify;
     align-items: center;
+    text-align: justify;
     padding: 1.5rem 2rem;
     border-radius: 24px;
     font-size: 16px;
@@ -234,11 +265,24 @@ width: 90%;
     font-family: 'Poppins', sans-serif;
 }
 
+#menu1{
+  padding: 40px; /* espaçamento */
+  float: left; /* ocupa todo o espaço da section, flui da esquerda, empilhado à esquerda */
+}
+
+.coluna2{
+  float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 80%;
+}
+
 /* CSS página ODS */
 .textoods{
   display: auto;
     justify-content: justify;
     align-items: center;
+    text-align: justify;
     padding: 1.5rem 2rem;
     border-radius: 24px;
     font-size: 16px;
@@ -255,6 +299,7 @@ width: 90%;
 /* CSS carrousel fotos todos os projetos */
 
     .container-fluid {
+      float: left;
       display:flexbox;
       justify-content: center; /* Centraliza horizontalmente */
       align-items: center; /* Centraliza verticalmente */
@@ -376,4 +421,23 @@ width: 90%;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     background-color: #DDD9CE;
+  }
+
+  /* CSS Responsividade */
+  @media all and (max-width: 768px){
+
+  }
+
+  /* Teste colunas */
+
+  .coluna {
+    float: right;
+    padding: 0 5%;
+    position: relative;
+    width: 50%;
+  }
+
+  /* CSS tamanho texto para diferentes telas  */
+.secaoapresentacao{
+  width: 90%;
   }
