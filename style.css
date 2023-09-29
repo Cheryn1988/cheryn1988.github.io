@@ -264,8 +264,8 @@ width: 90%;
     
     .carousel {
       /* Define o tamanho desejado para o carrossel */
-      max-width: 600px; /* Largura máxima do carrossel */
-      width: 60%; /* Garante que ele ocupe 100% da largura do contêiner */
+      max-width: 700px; /* Largura máxima do carrossel */
+      width: 100%; /* Garante que ele ocupe 100% da largura do contêiner */
      padding-top: 50px;
      margin: auto;
   }
