@@ -291,7 +291,7 @@ line-height: 35px;
     .carousel {
       /* Define o tamanho desejado para o carrossel */
       max-width: 700px; /* Largura máxima do carrossel */
-      width: 100%; /* Garante que ele ocupe 100% da largura do contêiner */
+      width: 100%; /* Garante que ele ocupe 100% da largura do conteiner */
      padding-top: 50px;
      margin: auto;
   }
@@ -326,6 +326,19 @@ line-height: 35px;
   font-family: 'Poppins', sans-serif;
   border: none;
 }
+
+/* CSS Rodapé */
+  .footer{
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 50px;
+    color: #7A695D;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: #DDD9CE;
+  }
 
 /* CSS página Contato */
 .formadecontato input{
@@ -390,18 +403,10 @@ line-height: 35px;
     font-family: 'Poppins', sans-serif;
     border: none;
   }
-
-  /* CSS Rodapé */
-  .footer{
-    font-size: 17px;
-    display: flex;
-    justify-content: center;
-    padding: 50px;
-    margin-top: 50px;
-    color: #7A695D;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    background-color: #DDD9CE;
+.textoformatacao{
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-size: 25px;
   }
 
   /* CSS Responsividade */
