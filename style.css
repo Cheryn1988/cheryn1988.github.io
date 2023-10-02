@@ -80,6 +80,7 @@ line-height: 35px;
 .texto{
     display: flex;
     justify-content: center;
+    float: center;
     align-items: center;
     text-align: justify;
     padding: 90px 60px 90px 60px;
@@ -178,9 +179,11 @@ line-height: 35px;
 
 /* CSS página Currículo*/
 
+/* Título dos três projetos*/
 .item2{
   margin: auto;
   display: flex;
+  float: center;
   align-items: center;
   justify-content: center;
   font-size: 22px;
@@ -195,9 +198,12 @@ line-height: 35px;
   box-shadow: 0 5px 5px rgba(0, 0, 0, .1);
   font-family: 'Poppins', sans-serif;
 }
+
+/* Texto*/
 .textocurriculo{
   display: auto;
   justify-content: justify;
+  float: center;
   text-align: justify;
   align-items: center;
   padding: 10px 40px 20px 40px;
@@ -212,35 +218,13 @@ line-height: 35px;
   font-family: 'Poppins', sans-serif;
 }
 
-.item3{
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 22px;
-    width: 370px;
-    height: 60px;
-    margin-bottom: 7px;
-    border-radius: 50px;
-    border: 1px solid rgba(232, 202, 179);
-    color:rgba(232, 202, 179);
-    background: rgb(163, 160, 157);
-    box-shadow: 0 5px 5px rgba(0, 0, 0, .1);
-    cursor: pointer;
-    font-family: 'Poppins', sans-serif;
-  }
+  /* CSS página Cardápio */
 
-  /* CSS texto Acesso ao projeto pelo Github*/
- .textoacessogithub{
-  color: rgba(238, 232, 227);
-    font-family: 'Poppins', sans-serif;
-  
-  } 
-
-/* CSS página Cardápio */
+  /* Texto*/
 .textocardapio{
     display: auto;
     justify-content: justify;
+    float: center;
     align-items: center;
     text-align: justify;
     padding: 1.5rem 2rem;
@@ -259,10 +243,13 @@ line-height: 35px;
 
 
 /* CSS página ODS */
+
+ /* Texto*/
 .textoods{
   display: auto;
     justify-content: justify;
     align-items: center;
+    float: center;
     text-align: justify;
     padding: 1.5rem 2rem;
     border-radius: 24px;
@@ -326,6 +313,32 @@ line-height: 35px;
   font-family: 'Poppins', sans-serif;
   border: none;
 }
+
+/* CSS texto Acesso ao projeto pelo Github*/
+.textoacessogithub{
+  color: rgba(238, 232, 227);
+    font-family: 'Poppins', sans-serif;
+  
+  } 
+
+  /* CSS botões Acesso ao projeto pelo Github*/
+  .item3{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    width: 370px;
+    height: 60px;
+    margin-bottom: 7px;
+    border-radius: 50px;
+    border: 1px solid rgba(232, 202, 179);
+    color:rgba(232, 202, 179);
+    background: rgb(163, 160, 157);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+  }
 
 /* CSS Rodapé */
   .footer{
@@ -409,9 +422,6 @@ line-height: 35px;
   font-size: 25px;
   }
 
-  /* CSS Responsividade */
-
-
   /* Colunas Github e Carousel*/
 
   .coluna {
@@ -421,8 +431,16 @@ line-height: 35px;
     width: 50%;
   }
 
-
+ /* CSS Responsividade */
   /* CSS tamanho texto para diferentes telas  */
-.secaoapresentacao{
-  width: 90%;
+
+
+  @media all and (max-width: 768px) {
+  .coluna{
+   display: block;  /* se comporta como bloco, empurrando o conteúdo seguinte para baixo */
+    width: 80%; /* espaço que o conteúdo vai ocupar da tela */
+    padding: 0; /* display block ja vai fazer a função do bloco ocupar o espaço inteiro */
+    margin: 10px auto;
+    float: none; /* não vamos precisar da propriedade fluída para a esquerda */
+  }  
   }
