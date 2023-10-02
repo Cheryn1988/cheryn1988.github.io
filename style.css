@@ -343,14 +343,20 @@ line-height: 35px;
 /* CSS Rodapé */
   .footer{
     font-size: 17px;
-    display: flex;
+    display: column;
     justify-content: center;
+    text-align: justify;
     padding: 50px;
+    margin: auto;
     margin-top: 50px;
     color: #7A695D;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     background-color: #DDD9CE;
+  }
+
+  #agradecimentos{
+    font-size: 15px;
   }
 
 /* CSS página Contato */
@@ -432,7 +438,7 @@ line-height: 35px;
   }
 
  /* CSS Responsividade */
-  /* CSS tamanho texto para diferentes telas  */
+  /* CSS tamanho texto para diferentes telas, partes dos projetos */
 
 
   @media all and (max-width: 768px) {
